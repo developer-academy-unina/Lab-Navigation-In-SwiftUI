@@ -1,10 +1,10 @@
 <div align="center">
-  <h3>Session</h3>
-  <h1>Activity-Template</h1>
+  <h3>Lab</h3>
+  <h1>Navigation in SwiftUI</h1>
   <br />
-  <a href="https://github.com/developer-academy-unina/Activity-Template/issues/new?assignees=&labels=bug&template=01_BUG_REPORT.md&title=bug%3A+">Report a Bug</a>
+  <a href="https://github.com/developer-academy-unina/Lab-Navigation-In-SwiftUI/issues/new?assignees=&labels=bug&template=01_BUG_REPORT.md&title=bug%3A+">Report a Bug</a>
   ·
-  <a href="https://github.com/developer-academy-unina/Activity-Template/discussions">Ask a Question</a>
+  <a href="https://github.com/developer-academy-unina/Lab-Navigation-In-SwiftUI/discussions">Ask a Question</a>
   
 </div>
   <br />
@@ -13,10 +13,10 @@
     <img src="https://img.shields.io/static/v1?label=Version&message=1.0.0&color=brightgreen" />
   </a>
   <a href="#" alt="XCode Version">
-    <img src="https://img.shields.io/static/v1?label=XCode%20Version&message=13.0&color=brightgreen&logo=xcode" />
+    <img src="https://img.shields.io/static/v1?label=XCode%20Version&message=16.0&color=brightgreen&logo=xcode" />
   </a>        
   <a href="#" alt="Swift Version">
-    <img src="https://img.shields.io/static/v1?label=Swift%20Version&message=13.0&color=brightgreen&logo=swift" />
+    <img src="https://img.shields.io/static/v1?label=Swift%20Version&message=6.0&color=brightgreen&logo=swift" />
   </a>
   <a href="#" alt="Framework used">
     <img src="https://img.shields.io/static/v1?label=Framework%20used&message=SwiftUI&color=brightgreen&logo=swift"
@@ -43,22 +43,14 @@
 
 ## About
 
-> **[?]**
-> Provide general information about your project here.
-> What problem does it (intend to) solve?
-> What is the purpose of your project?
-> Why did you undertake it?
-> You don't have to answer all the questions -- just the ones relevant to your project.
+Mastering the ```NavigationStack``` and ```TabView``` is essential when building your SwiftUI apps. Use this project to learn how to implement the hierarchical and flat navigations using SwiftUI. 
 
 <summary>Screenshots</summary>
 <br>
 
-> **[?]**
-> Please provide your screenshots here.
-
-|                               Home Page                               |                               Login Page                               |
+|                               Starter                               |                               Final                               |
 | :-------------------------------------------------------------------: | :--------------------------------------------------------------------: |
-| <img src="docs/images/screenshot.png" title="Home Page" width="100%"> | <img src="docs/images/screenshot.png" title="Login Page" width="100%"> |
+| <img src="docs/images/LearnersStarter.png" title="Starter" width="100%"> | <img src="docs/images/LearnersFinal.png" title="Final" width="100%"> |
 
 <br />
 
@@ -69,26 +61,28 @@
 1. Clone the repo
 
    ```sh
-   git clone https://github.com/developer-academy-unina/Activity-Template
+   git clone https://github.com/developer-academy-unina/Lab-Navigation-In-SwiftUI
    ```
 
-2. Open the ```.xcodeproj``` file
+2. Open the ```.xcodeproj``` file in the Starter project
 
 ### How to
 
-1. Do Some...
+1. Open the Starter project
 
-   ```sh
-   git clone https://github.com/developer-academy-unina/Activity-Template
-   ```
+2. Implement the hierarchical navigation from ```LearnerListView``` to ```LearnerDetailView```
 
-2. ...
+3. Implement the flat navigation between ```LearnerListView``` and ```RedView``` in a new file named ```ContainerView```
+
+4. In the ```LearnersApp.swift``` file (the app entry point), swap ```LearnerListView``` with ```ContainerView``` to see the flat navigation at the app launch
+
+5. Launch the app on the simulator and check if your version is similar to the Final project
 
 <br />
 
 ## Issues and Discussions
 
-You've found a bug in the source code, a mistake in the documentation or maybe you'd like a new feature? Take a look at [GitHub Discussions](https://github.com/developer-academy-unina/Activity-Template/discussions) to see if it's already being discussed. You can help us by [submitting an issue on GitHub](https://github.com/developer-academy-unina/Activity-Template/issues). Before you create an issue, make sure to search the issue archive -- your issue may have already been addressed!
+You've found a bug in the source code, a mistake in the documentation or maybe you'd like a new feature? Take a look at [GitHub Discussions](https://github.com/developer-academy-unina/Lab-Navigation-In-SwiftUI/discussions) to see if it's already being discussed. You can help us by [submitting an issue on GitHub](https://github.com/developer-academy-unina/Lab-Navigation-In-SwiftUI/issues). Before you create an issue, make sure to search the issue archive -- your issue may have already been addressed!
 
 Please try to create bug reports that are:
 
@@ -103,17 +97,17 @@ Please try to create bug reports that are:
 
 Reach out to the maintainer at one of the following places:
 
-- [GitHub Discussions](https://github.com/developer-academy-unina/Activity-Template/discussions)
-- [GitHub issues](https://github.com/developer-academy-unina/Activity-Template/issues/new?assignees=&labels=question&template=04_SUPPORT_QUESTION.md&title=support%3A+)
+- [GitHub Discussions](https://github.com/developer-academy-unina/Lab-Navigation-In-SwiftUI/discussions)
+- [GitHub issues](https://github.com/developer-academy-unina/Lab-Navigation-In-SwiftUI/issues/new?assignees=&labels=question&template=04_SUPPORT_QUESTION.md&title=support%3A+)
 - Contact a Mentor for any other help
 
 <br />
 
 ## Authors & contributors
 
-The original setup of this repository is by [...](https://github.com/...).
+The original setup of this repository is by [Luca Palmese](https://github.com/pal-luke).
 
-For a full list of all authors and contributors, see [the contributors page](https://github.com/developer-academy-unina/Activity-Template/contributors).
+For a full list of all authors and contributors, see [the contributors page](https://github.com/developer-academy-unina/Lab-Navigation-In-SwiftUI/contributors).
 
 <br />
 
