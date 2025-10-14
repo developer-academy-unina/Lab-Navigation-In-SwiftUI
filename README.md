@@ -13,33 +13,18 @@
     <img src="https://img.shields.io/static/v1?label=Version&message=1.0.0&color=brightgreen" />
   </a>
   <a href="#" alt="XCode Version">
-    <img src="https://img.shields.io/static/v1?label=XCode%20Version&message=16.0&color=brightgreen&logo=xcode" />
+    <img src="https://img.shields.io/static/v1?label=XCode%20Version&message=26.0&color=brightgreen&logo=xcode" />
   </a>        
   <a href="#" alt="Swift Version">
     <img src="https://img.shields.io/static/v1?label=Swift%20Version&message=6.0&color=brightgreen&logo=swift" />
   </a>
   <a href="#" alt="Framework used">
-    <img src="https://img.shields.io/static/v1?label=Framework%20used&message=SwiftUI&color=brightgreen&logo=swift"
-            alt="coverage">
+    <img src="https://img.shields.io/static/v1?label=Framework%20used&message=SwiftUI&color=brightgreen&logo=swift">
   </a>          
 </p>
 
-<details open="open">
-<summary>Table of Contents</summary>
-
-- [About](#about)
-- [Getting Started](#getting-started)
-  - [Installation](#installation)
-  - [How to](how-to)
-- [Issues and Discussions](#issues-and-discussions)
-- [Support](#support)
-- [Authors & contributors](#authors--contributors)
-- [License](#license)
-
-</details>
-
 ---
-<br />
+
 
 ## About
 
@@ -60,13 +45,13 @@ Mastering the ```NavigationStack``` and ```TabView``` is essential when building
 
 1. Clone the repo
 
-   ```sh
-   git clone https://github.com/developer-academy-unina/Lab-Navigation-In-SwiftUI
-   ```
+```console
+git clone https://github.com/developer-academy-unina/Lab-Navigation-In-SwiftUI
+```
 
-2. Open the ```.xcodeproj``` file in the Starter project
+2. Open the `.xcodeproj` file in the Starter project
 
-### How to
+### What do you need to do:
 
 1. Open the Starter project
 
