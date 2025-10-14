@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct RedView: View {
+    
     var body: some View {
         NavigationStack {
             ZStack {
@@ -19,6 +20,7 @@ struct RedView: View {
             .navigationTitle("Red View")
         }
     }
+    
 }
 
 #Preview {

@@ -19,13 +19,13 @@ struct LearnerListView: View {
                         .imageScale(.large)
                         .foregroundStyle(learner.favouriteColor)
                     
-                    Text(learner.name)
-                    Text(learner.surname)
+                    Text("\(learner.name) \(learner.surname)")
                 }
             }
         }
         .navigationTitle("Learners")
     }
+    
 }
 
 #Preview {
